@@ -126,7 +126,7 @@ header hr {
 .slide {
     display: none;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
 }
 
@@ -230,4 +230,8 @@ header hr {
     font-size: 18px;
     font-weight: 700;
     line-height: normal;
+}
+.string-image{
+    width: 100% !important;
+    height: 0% !important;
 }

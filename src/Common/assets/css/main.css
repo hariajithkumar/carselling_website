@@ -114,6 +114,11 @@
     font-weight: 700;
 }
 
+.car-hover:hover {
+    position: relative;
+    top: -45px;
+}
+
 .sell-look {
     background: #FC6703;
 }
@@ -134,7 +139,13 @@
 }
 
 .new-arrival {
-    padding: 50px 0px;
+    /* padding: 30px 0px; */
+    /* height: 100vh; */
+    background: #F6F6F6;
+}
+
+.carousel {
+    height: auto !important;
 }
 
 .new-arrival p {
@@ -154,14 +165,249 @@
     font-weight: 700;
     line-height: 45px;
 }
-.new-arrival .line-1{
+
+.new-arrival .line-1 {
     width: 12%;
     margin: 0 auto;
     border: 1px solid #FC6703;
 }
-.new-arrival .line-2{
+
+.new-arrival .line-2 {
     width: 8%;
     margin: 10px auto;
     border: 1px solid #FC6703;
 }
+
+.card {
+    border: none;
+}
+
+.card:hover .card-img-top {
+    background: #FC6703;
+    opacity: .2;
+}
+
+.card:hover .card-image {
+    background: linear-gradient(0deg, rgba(252, 103, 3, 0.57) 0%, rgba(252, 103, 3, 0.57) 100%) !important;
+}
+
+.car-model {
+    height: 100%;
+    /* display: block; */
+    position: relative;
+    top: -200px;
+    padding: 10px 0px;
+    z-index: -999;
+}
+
+.card:hover {
+    height: 88.5%;
+}
+
+.card:hover .car-model {
+    height: 100%;
+    position: relative;
+    top: -200px;
+    padding: 10px 0px;
+    /* display: block; */
+    z-index: 1;
+    border-bottom: 1px solid #FC6703;
+    background: #FFF;
+}
+
+.car-model span {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.card-body h5 {
+    margin: 10px 0px;
+    color: #FC6703;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-body p span {
+    color: #717171;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
+.new-arrival .line-3 {
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid #FC6703;
+}
+
+.new-arrival .line-4 {
+    width: 15%;
+    margin: 10px auto;
+    border: 1px solid #FC6703;
+}
+
+.card-body p {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+/* .prev-btn{
+    margin-left: -185px;
+    background: #FC6703;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+} */
+
+
+.happy-client {
+    background: url('../image/happy-client.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 55vh; */
+}
+
+.happy-review p {
+    padding-top: 50px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.happy-review h5 {
+    padding-bottom: 0px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.happy-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.happy-content p {
+    padding: 20px 0px 10px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+}
+
+.happy-content h5 {
+    padding-bottom: 40px;
+    color: #FC6703;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.carousel-indicators .active {
+    background: #FC6703 !important;
+    border: none;
+    width: 20px;
+    height: 10px;
+    border-radius: 10px
+}
+
+.carousel-indicators .inactive {
+    background: #FFF;
+    border: none;
+    width: 20px;
+    height: 10px;
+    border-radius: 10px
+}
+
+.happy-client .line-5 {
+    width: 12%;
+    background: red;
+    margin: 0 auto;
+    border: 1px solid #FC6703;
+}
+
+.happy-client .line-6 {
+    width: 8%;
+    margin: 10px auto;
+    border: 1px solid #FC6703;
+}
+
+.collection-arrival .nav-tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: none !important;
+}
+
+.collection-arrival .nav-tabs .active {
+    border-bottom: 1px solid #FC6703;
+    background: none;
+}
+
+.search-vehicle .select-vehicle {
+    color: #777;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.search-vehicle .active .select-vehicle {
+    color: #FC6703 !important;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.vehical-stock {
+    background: url('../image/happy-client.png'), lightgray 100% / cover no-repeat;
+    background-position: center;
+}
+
+.vehical-bg {
+    opacity: 0.8;
+    background: #FC6703;
+}
+
+.stock-view {
+    border-left: 1px solid #FFF;
+}
+
+.stock-detail {
+    border-left: 1px solid #FFF;
+    padding: 0px 20px;
+}
+
+.stock-detail h3 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 /* home css end  */
