@@ -416,10 +416,12 @@
 .line-7 {
     display: inline-block;
 }
-.stock-detail img{
+
+.stock-detail img {
     width: 15%;
     margin-top: -35px;
 }
+
 .counter {
     margin: 0px 20px;
     color: #FFF;
@@ -428,9 +430,17 @@
     font-size: 55px;
     font-weight: 800;
 }
-.sales-model{
+
+.sales-model {
     background: #F6F6F6;
 }
+
+
+/* .icon-size{
+    width: 20%;
+} */
+
+
 /* home css end  */
 
 
@@ -444,4 +454,110 @@
 /* responsive css start  */
 
 @media (max-width: 992px) {
+    .look-content {
+        padding-top: 70px;
+    }
+
+    .look-content h3 {
+        font-size: 28px;
+    }
+
+    .look-content p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .look-content button {
+        height: 40px;
+        padding: 0px 50px;
+    }
+
+    .sell-look .look-content button {
+        height: 40px;
+        padding: 0px 50px;
+    }
+    .stock-view h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .stock-detail img {
+        width: 10%;
+        margin-top: -23px;
+    }
+    .counter {
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 776px) {
+    .look-content {
+        padding-top: 20px;
+    }
+    .stock-view h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .stock-detail img {
+        width: 10%;
+        margin-top: -23px;
+    }
+    .counter {
+        font-size: 40px !important;
+    }
+
+}
+@media (max-width: 556px) {
+    .stock-detail img {
+        width: 10%;
+        margin-top: -35px;
+    }
+}
+@media (max-width: 380px) {
+    .look-content h3 {
+        font-size: 18px;
+    }
+    .look-content p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .happy-review h5 {
+        font-size: 28px;
+    }
+    .happy-review p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .happy-content p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .look-content button {
+        height: 30px;
+        padding: 0px 30px;
+    }
+    .sell-look .look-content button {
+        height: 30px;
+        padding: 0px 30px;
+    }
+    .new-arrival h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .new-arrival .line-1 {
+        width: 25%;
+    }
+    .new-arrival .line-2 {
+        width: 18%;
+    }
+    .stock-detail img {
+        width: 20%;
+        margin-top: -35px;
+    }
+    .stock-view h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .counter {
+        font-size: 36px;
+    }
 }

@@ -269,8 +269,10 @@ header hr {
 
 /* footer css start  */
 .footer {
-    background: url('../image/bg-footer.png'), lightgray 100% / cover no-repeat;
+    background: url('../image/bg-footer.png');
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer-content {
@@ -392,6 +394,16 @@ header hr {
         height: 35px;
         padding: 7px;
     }
+    .footer-car {
+        width: 15%;
+    }
+    .footer-content h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .footer-bottom ul li {
+        margin-right: 10px !important;
+    }
 }
 
 
@@ -442,6 +454,14 @@ header hr {
         height: 35px;
         padding: 7px;
     }
+    .footer-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer-content p {
+        font-size: 17px;
+        line-height: 27px;
+    }
 }
 
 
@@ -453,8 +473,8 @@ header hr {
     .nav-item {
         display: flex;
         align-items: center;
-        margin-right: 30px;
-        padding: 10px 0px;
+        margin-right: 0px;
+        padding: 0px 0px;
     }
     .carousel-content h3 {
         font-size: 22px;
@@ -465,5 +485,17 @@ header hr {
     .carousel-content button {
         height: 30px;
         padding: 5px;
+    }
+    .footer-content h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .footer-content p {
+        font-size: 12px;
+        line-height: 27px;
+    }
+    .footer-content span {
+        font-size: 18px;
+        line-height: 28px;
     }
 }

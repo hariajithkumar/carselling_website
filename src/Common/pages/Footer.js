@@ -22,7 +22,7 @@ function Footer() {
                         <div className='col-lg-4 col-md-4 col-12 text-center'>
                             <p>@ 2023 All rights reserved</p>
                         </div>
-                        <div className='col-lg-4 col-md-4 col-12 text-center'>
+                        <div className='col-lg-4 col-md-4 col-12 my-lg-0 my-md-0 my-3 text-center'>
                             <ul className='nav d-flex justify-content-center'>
                                 <li className='nav-item'>Home</li>
                                 <li className='nav-item'>Buy Car</li>

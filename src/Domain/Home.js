@@ -70,39 +70,39 @@ function Home() {
             <section className='mt-5'>
                 <div className='container-75 car-details'>
                     <div className='row m-0'>
-                        <div className='col-lg-4 text-end pt-5'>
+                        <div className='col-lg-4 col-md-6 col-12 text-lg-end text-md-end text-start pt-lg-4 pt-0'>
                             <div className='mb-5'>
-                                <img src={icon1} className='mb-3' />
+                                <img src={icon1} className='mb-3 icon-size' />
                                 <h3 className='mb-3'>SUPER FAST</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
                             <div className='mb-5'>
-                                <img src={icon2} className='mb-3' />
+                                <img src={icon2} className='mb-3 icon-size' />
                                 <h3 className='mb-3'>AFFORDABLE</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
                             <div className='mb-5'>
-                                <img src={icon3} className='mb-3' />
+                                <img src={icon3} className='mb-3 icon-size' />
                                 <h3 className='mb-3'>OIL CHANGES</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
                         </div>
-                        <div className='col-lg-4 car-hover'>
-                            <img src={car1} className='w-100' />
+                        <div className='col-lg-4 col-md-4 d-lg-block d-none car-hover'>
+                            <img src={car1} className='w-100 h-100' />
                         </div>
-                        <div className='col-lg-4 pt-5'>
+                        <div className='col-lg-4 col-md-6 col-12 pt-lg-4 pt-0'>
                             <div className='mb-5'>
-                                <img src={icon4} className='mb-3' />
+                                <img src={icon4} className='mb-3 ' />
                                 <h3 className='mb-3'>AIR CONDITIONING</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
                             <div className='mb-5'>
-                                <img src={icon5} className='mb-3' />
+                                <img src={icon5} className='mb-3 ' />
                                 <h3 className='mb-3'>TRANSMISSION</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
                             <div className='mb-5'>
-                                <img src={icon6} className='mb-3' />
+                                <img src={icon6} className='mb-3 ' />
                                 <h3 className='mb-3'>DEALERSHIP</h3>
                                 <p className='mb-3'>Leap lorem Ipsum is simply dummy text the implications printin  k a galley of.</p>
                             </div>
@@ -111,12 +111,12 @@ function Home() {
                 </div>
                 <div className='looking-car'>
                     <div className='row m-0'>
-                        <div className='col-lg-6 col-md-6 col-12 pt-2'>
+                        <div className='col-lg-6 col-md-6 col-12 py-lg-0 py-3'>
                             <div className='row m-0 px-3'>
-                                <div className='col-4'>
-                                    <img src={look1} className='w-100' height={356} />
+                                <div className='col-lg-4 d-lg-block d-none'>
+                                    <img src={look1} className='w-100' height={364} />
                                 </div>
-                                <div className='col-8'>
+                                <div className='col-lg-8 col-12'>
                                     <div className='look-content'>
                                         <h3>ARE YOU LOOKING FOR A CAR?</h3>
                                         <p className='my-3'>Search your car in our Inventory and request a quote on the vehicle of your choosing.</p>
@@ -125,16 +125,16 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-6 col-md-6 col-12 sell-look'>
+                        <div className='col-lg-6 col-md-6 col-12 sell-look py-lg-0 py-3'>
                             <div className='row m-0 px-3'>
-                                <div className='col-8'>
+                                <div className='col-lg-8 col-12'>
                                     <div className='look-content'>
                                         <h3>DO YOU WANT TO SELL YOUR CAR ?</h3>
                                         <p className='my-3'>The vehicle of your choosing search your car in our Inventory and request a quote on.</p>
                                         <button >Contact</button>
                                     </div>
                                 </div>
-                                <div className='col-4'>
+                                <div className='col-lg-4 d-lg-block d-none'>
                                     <img src={look2} className='w-100' height={364} />
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ function Home() {
                 </div>
                 <div className='new-arrival'>
                     <div className='container-90 new-arrival'>
-                        <div className='text-center py-5'>
+                        <div className='text-center py-lg-5 py-md-4 py-2'>
                             <p>Check out our new cars</p>
                             <h2>NEW ARRIVAL</h2>
                             <hr className='line-1' />
@@ -152,8 +152,8 @@ function Home() {
                         <div id="carouselExampleControls" className="carousel" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <div className='row m-0 py-5'>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                    <div className='row m-0 py-lg-5 py-md-4 py-2'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -183,7 +183,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -213,7 +213,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -243,7 +243,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -277,7 +277,7 @@ function Home() {
                                 </div>
                                 <div className="carousel-item">
                                     <div className='row m-0 py-5'>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -307,7 +307,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -337,7 +337,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -367,7 +367,7 @@ function Home() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                             <div className="card">
                                                 <div className='card-image position-relative'>
                                                     <img src={arrival1} className="card-img-top" alt="..." />
@@ -454,7 +454,7 @@ function Home() {
                             <hr className='line-2' />
                         </div>
                         <div className='mt-3'>
-                            <div className='container-90 search-vehicle d-lg-block d-md-block d-sm-block d-none'>
+                            <div className='container-90 search-vehicle d-lg-block d-md-block d-sm-block'>
                                 <Tabs
                                     id="controlled-tabs"
                                     activeKey={key}
@@ -1048,8 +1048,8 @@ function Home() {
                 <div className='vehical-stock'>
                     <div className='vehical-bg'>
                         <div className='container-90'>
-                            <div className='row m-0 py-5'>
-                                <div className='col-lg-4 stock-view'>
+                            <div className='row m-0 py-5 justify-content-center'>
+                                <div className='col-lg-4 col-md-6 col-12 stock-view'>
                                     <hr className='line-7' />
                                     <div className='stock-detail'>
                                         <h3>VEHICLE IN STOCK</h3>
@@ -1057,7 +1057,7 @@ function Home() {
                                         <span className='counter'><Counters targetValue={countersData[0].targetValue} /> +</span>
                                     </div>
                                 </div>
-                                <div className='col-lg-4 stock-view'>
+                                <div className='col-lg-4 col-md-6 col-12 stock-view'>
                                     <hr className='line-7' />
                                     <div className='stock-detail'>
                                         <h3>DEALER REVIEWS</h3>
@@ -1065,7 +1065,7 @@ function Home() {
                                         <span className='counter'><Counters targetValue={countersData[1].targetValue} /> +</span>
                                     </div>
                                 </div>
-                                <div className='col-lg-4 stock-view'>
+                                <div className='col-lg-4 col-md-6 col-12 stock-view'>
                                     <hr className='line-7' />
                                     <div className='stock-detail'>
                                         <h3>HAPPY CUSTOMER</h3>
@@ -1080,13 +1080,13 @@ function Home() {
                 </div>
                 <div className='sales-mode py-5'>
                     <div className='row m-0'>
-                        <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
                             <img src={car2} alt='carmodel' className='w-100'/>
                         </div>
-                        <div className='col-lg-6 col-md-4 col-sm-6 col-12'>
+                        <div className='col-lg-6 col-md-4 col-sm-6 col-12 my-2'>
                             <img src={car3} alt='carmodel' className='w-100'/>
                         </div>
-                        <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                        <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2'>
                             <img src={car4} alt='carmodel' className='w-100'/>
                         </div>
                     </div>
