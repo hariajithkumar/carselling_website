@@ -463,7 +463,7 @@ function Home() {
                                     <Tab eventKey="all" title={<><span className='select-vehicle'>All</span></>}>
                                         <div className=' bg-active-tabs'>
                                             <div className='row m-0 py-5'>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -493,7 +493,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -523,7 +523,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -553,7 +553,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -583,7 +583,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100 my-2'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100 my-2'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -613,7 +613,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100 my-2'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100 my-2'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -643,7 +643,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100 my-2'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100 my-2'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
@@ -673,7 +673,7 @@ function Home() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 h-100 my-2'>
+                                                <div className='col-lg-3 col-md-4 col-sm-6 col-12 my-2 h-100 my-2'>
                                                     <div className="card">
                                                         <div className='card-image position-relative'>
                                                             <img src={arrival1} className="card-img-top" alt="..." />
