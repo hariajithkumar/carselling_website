@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Tabs, Tab, Form } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 
@@ -23,15 +23,47 @@ import string from '../Common/assets/image/string.png'
 import stock1 from '../Common/assets/image/stock-vehical.png'
 import stock2 from '../Common/assets/image/stock-msg.png'
 import stock3 from '../Common/assets/image/vehical-user.png'
+import car2 from '../Common/assets/image/car2.png'
+import car3 from '../Common/assets/image/car3.png'
+import car4 from '../Common/assets/image/car4.png'
 
 // file path 
 import Header from '../Common/pages/Header'
 import '../Common/assets/css/main.css'
 import Reviewcarousel from '../Common/pages/Reviewcarousel'
+import Counter from './Counter';
+import Footer from '../Common/pages/Footer';
 
 function Home() {
     const [key, setKey] = useState('all');
     const dispatch = useDispatch();
+
+    const Counters = ({ targetValue }) => {
+        const [count, setCount] = useState(0);
+
+        useEffect(() => {
+            const increment = targetValue / 150;
+
+            if (count < targetValue) {
+                const timeoutId = setTimeout(() => {
+                    setCount((prevCount) => Math.ceil(prevCount + increment));
+                }, 1);
+
+                return () => clearTimeout(timeoutId);
+            }
+
+            return undefined;
+        }, [count, targetValue]);
+
+        return <span>{count}</span>;
+    };
+    const countersData = [
+        { id: 1, targetValue: 253 },
+        { id: 2, targetValue: 352 },
+        { id: 3, targetValue: 1150 },
+        // Add more counter data as needed
+    ];
+
     return (
         <div>
             <Header />
@@ -1018,23 +1050,49 @@ function Home() {
                         <div className='container-90'>
                             <div className='row m-0 py-5'>
                                 <div className='col-lg-4 stock-view'>
+                                    <hr className='line-7' />
                                     <div className='stock-detail'>
                                         <h3>VEHICLE IN STOCK</h3>
-                                        <img src={stock1} />
+                                        <img src={stock1} className='' />
+                                        <span className='counter'><Counters targetValue={countersData[0].targetValue} /> +</span>
                                     </div>
                                 </div>
-                                <div className='col-lg-4'>
-
+                                <div className='col-lg-4 stock-view'>
+                                    <hr className='line-7' />
+                                    <div className='stock-detail'>
+                                        <h3>DEALER REVIEWS</h3>
+                                        <img src={stock2} className='' />
+                                        <span className='counter'><Counters targetValue={countersData[1].targetValue} /> +</span>
+                                    </div>
                                 </div>
-                                <div className='col-lg-4'>
-
+                                <div className='col-lg-4 stock-view'>
+                                    <hr className='line-7' />
+                                    <div className='stock-detail'>
+                                        <h3>HAPPY CUSTOMER</h3>
+                                        <img src={stock3} className='' />
+                                        <span className='counter'><Counters targetValue={countersData[2].targetValue} /> +</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
+                <div className='sales-mode py-5'>
+                    <div className='row m-0'>
+                        <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                            <img src={car2} alt='carmodel' className='w-100'/>
+                        </div>
+                        <div className='col-lg-6 col-md-4 col-sm-6 col-12'>
+                            <img src={car3} alt='carmodel' className='w-100'/>
+                        </div>
+                        <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                            <img src={car4} alt='carmodel' className='w-100'/>
+                        </div>
+                    </div>
+                </div>
             </section>
+            <Footer />
         </div>
     )
 }

@@ -361,6 +361,9 @@
 
 .collection-arrival .nav-tabs .active {
     border-bottom: 1px solid #FC6703;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     background: none;
 }
 
@@ -368,18 +371,18 @@
     color: #777;
     text-align: center;
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .search-vehicle .active .select-vehicle {
     color: #FC6703 !important;
     text-align: center;
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 28px;
 }
 
 .vehical-stock {
@@ -388,8 +391,8 @@
 }
 
 .vehical-bg {
-    opacity: 0.8;
     background: #FC6703;
+    opacity: 0.8;
 }
 
 .stock-view {
@@ -401,13 +404,44 @@
     padding: 0px 20px;
 }
 
-.stock-detail h3 {
+.stock-view h3 {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Open Sans;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 45px;
 }
 
+.line-7 {
+    display: inline-block;
+}
+.stock-detail img{
+    width: 15%;
+    margin-top: -35px;
+}
+.counter {
+    margin: 0px 20px;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 800;
+}
+.sales-model{
+    background: #F6F6F6;
+}
 /* home css end  */
+
+
+
+
+
+
+
+
+
+/* responsive css start  */
+
+@media (max-width: 992px) {
+}

@@ -46,25 +46,16 @@ const Carousel = () => {
           className={`slide ${index === currentIndex ? 'active' : ''}`}
         >
           <div className='row m-0'>
-            <div className='col-lg-6 col-md-6 col-12 carousel-content mt-2'>
+            <div className='col-lg-6 col-12 carousel-content mt-2'>
               <h3>{slide.title}</h3>
-              <p className='py-3'>{slide.content}</p>
+              <p className='py-2'>{slide.content}</p>
               <button>{slide.button_content}</button>
             </div>
-            <div className='col-lg-6 col-md-6 col-12'><img src={slide.image} alt={slide.id} /></div>
+            <div className='col-lg-6 col-12 my-lg-0 my-5'><img src={slide.image} alt={slide.id} /></div>
           </div>
         </div>
 
       ))}
-
-      {/* <button className="carousel-arrow carousel-arrow-prev" onClick={() => handleSlideChange(-1)}>
-        <i className="fas fa-chevron-left"></i>
-      </button>
-
-      <button className="carousel-arrow carousel-arrow-next" onClick={() => handleSlideChange(1)}>
-        <i className="fas fa-chevron-right"></i>
-      </button> */}
-
       <div className="carousel-dots carousel-indicators">
         {slides.map((slide, index) => (
           <button key={slide.id} className={`carousel-dot ${index === currentIndex ? 'active' : ''} mx-1`} onClick={() => setCurrentIndex(index)}>
